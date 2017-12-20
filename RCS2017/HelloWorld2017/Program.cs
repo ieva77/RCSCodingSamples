@@ -10,9 +10,9 @@ namespace HelloWorld2017
     {
         static void Main(string[] args)
         {
-            string myName;
-            myName = Console.ReadLine();
-            Console.WriteLine("Hello World!" + myName);
+            Mainigie greet;
+            greet = new Mainigie();
+            greet.SayHello();
             Console.ReadLine();
         }
     }
