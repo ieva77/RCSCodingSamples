@@ -12,7 +12,14 @@ namespace HelloWorld2017
         {
             Mainigie greet;
             greet = new Mainigie();
+            greet.HelloText = "Hello World!";
             greet.SayHello();
+
+            Mainigie seaGreet;
+            seaGreet = new Mainigie();
+            seaGreet.HelloText = "Ahou World!";
+            seaGreet.SayHello();
+
             Console.ReadLine();
         }
     }

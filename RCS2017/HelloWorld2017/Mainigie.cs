@@ -8,11 +8,12 @@ namespace HelloWorld2017
 {
     class Mainigie
     {
+        public string HelloText;
         public void SayHello()
         {
             string myName;
             myName = Console.ReadLine();
-            Console.WriteLine("Hello World!" + myName);
+            Console.WriteLine(HelloText + myName);
         }
     }
 }
